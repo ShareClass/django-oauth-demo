@@ -8,6 +8,8 @@
 
 優點：將 Oauth User model 整合，並且要實作 account method, 修改 template 相較於 django-allauth 都很簡單。
 
+## Configuration
+在 oauth_demo/oauth_credentials.py 設定 API KEY & Client ID
 
 ## Run Demo
 
