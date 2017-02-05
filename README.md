@@ -24,9 +24,13 @@
 ## Endpoints
 - /accounts/login
 目前只支援 Oauth Login<br>
+
 在 Facebook Login 的部分，Domain name 不可以使用 127.0.0.1:8000<br>
 要改用 localhost:8000/accounts/login
 Oauth 登入成功後，會導入 "localhost:8000" home page
+
+Google Login 部分，則是使用看個人在 Google Oauth APP 的設定
+一般可以設定 callback url 為 127.0.0.1:8000/path/to/google-oauth
 
 - /accounts/logout
 - /accounts/info
